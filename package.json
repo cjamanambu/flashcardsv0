@@ -1,0 +1,8 @@
+{
+  "name": "flashcardsv0",
+  "version": "1.0.0",
+  "description": "Simple flashcards service",
+  "main": "index.js",
+  "author": "CJ Amanambu",
+  "license": "MIT"
+}
