@@ -25,9 +25,7 @@
     "mysql2": "^2.3.3",
     "pg": "^8.8.0",
     "sequelize": "^6.21.6",
-    "sequelize-cli": "^6.4.1"
-  },
-  "devDependencies": {
+    "sequelize-cli": "^6.4.1",
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.19.0",
     "@babel/node": "^7.18.10",
@@ -47,5 +45,8 @@
     "prettier": "^2.7.1",
     "sinon-chai": "^3.7.0",
     "supertest": "^6.2.4"
+  },
+  "devDependencies": {
+
   }
 }
