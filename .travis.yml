@@ -8,7 +8,7 @@ matrix:
 cache:
   directories: []
 install:
-  yarn
+  yarn install
 after_success: yarn coverage
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
