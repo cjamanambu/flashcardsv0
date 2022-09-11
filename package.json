@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "prestart": "babel ./src --out-dir build",
-    "start": "node ./build/bin/www",
-    "poststart": "npx cross-env NODE_ENV=production npx sequelize-cli db:migrate",
+    "start": "yarn prod && node ./build/bin/www",
+    "prod": "npx cross-env NODE_ENV=production npx sequelize-cli db:migrate",
     "startdev": "nodemon --exec babel-node ./src/bin/www",
     "lint": "./node_modules/.bin/eslint ./src",
     "pretty": "prettier --write '**/*.{js,json}' '!node_modules/**'",
