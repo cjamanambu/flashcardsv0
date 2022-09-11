@@ -12,4 +12,10 @@ export const dbConfig = {
   host: process.env.DB_HOST,
   dialect: process.env.DB_DIALECT,
   url: process.env.DB_URL,
+  testUsername: process.env.DB_TEST_USERNAME,
+  testPassword: process.env.DB_TEST_PASSWORD,
+  testDatabase: process.env.DB_TEST_DATABASE,
+  testHost: process.env.DB_TEST_HOST,
+  testDialect: process.env.DB_TEST_DIALECT,
+  testUrl: process.env.DB_TEST_URL,
 };
