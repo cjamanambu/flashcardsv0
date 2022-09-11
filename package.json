@@ -9,8 +9,8 @@
     "lint": "./node_modules/.bin/eslint ./src",
     "pretty": "prettier --write '**/*.{js,json}' '!node_modules/**'",
     "postpretty": "yarn lint --fix",
-    "pretest": "cross-env NODE_ENV=test npx sequelize-cli db:migrate",
-    "test": "cross-env NODE_ENV=test nyc --reporter=html --reporter=text --reporter=lcov mocha -r @babel/register --timeout 10000",
+    "pretest": "npx cross-env NODE_ENV=test npx sequelize-cli db:migrate",
+    "test": "npx cross-env NODE_ENV=test nyc --reporter=html --reporter=text --reporter=lcov mocha -r @babel/register --timeout 10000",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
